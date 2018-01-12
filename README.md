@@ -2,7 +2,9 @@
 形如 x.xx.xxx的字符串转换成对象的key值
 
 ## 方法调用
+```js
 const dotToObjKey = require('dotString2ObjKey');
+```
 + 例一
 ```js
 console.log(dotToObjKey('a', '例一')); // { a: '例一'}
