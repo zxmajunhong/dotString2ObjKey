@@ -18,5 +18,5 @@ function dotStr2ObjKey(name, value) {
 }
 
 module.exports = function (name, value) {
-  dotStr2ObjKey(name, value);
+  return dotStr2ObjKey(name, value);
 }
